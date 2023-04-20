@@ -1,0 +1,57 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.card {
+    position: relative;
+    display: inline-block;
+}
+
+#card-image {
+    width: 100%;
+    height: auto;
+}
+
+.name-display {
+    position: absolute;
+    font-size: 3em;
+    color: #00A6AC;
+    text-shadow: 2px 2px 4px #000000;
+    bottom: 30%;
+    left: 67%;
+    transform: translate(-50%, -50%);
+}
+
+.input-section {
+    margin-top: 50px;
+}
+
+#name-input {
+    font-size: 1.2em;
+    padding: 5px;
+}
+
+button {
+    font-size: 1.2em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
